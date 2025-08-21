@@ -1,13 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-const page = () => {
+export default function page() {
+    throw new Error('there was a huge Error!')
     return (
         <main className='mt-8'>
             <div>
                 about us page
             </div>
         </main>
-    );
-};
-
-export default page;
+    )
+}
